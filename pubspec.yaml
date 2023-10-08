@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
 
 dev_dependencies:
   flutter_test:
@@ -77,15 +78,15 @@ flutter:
   fonts:
     - family: vazir
       fonts:
-        - asset: fonts/Vazirmatn-FD-Black.ttf
-        - asset: fonts/Vazirmatn-FD-Bold.ttf
-        - asset: fonts/Vazirmatn-FD-ExtraBold.ttf
-        - asset: fonts/Vazirmatn-FD-ExtraLight.ttf
-        - asset: fonts/Vazirmatn-FD-Light.ttf
-        - asset: fonts/Vazirmatn-FD-Medium.ttf
-        - asset: fonts/Vazirmatn-FD-Regular.ttf
-        - asset: fonts/Vazirmatn-FD-SemiBold.ttf
-        - asset: fonts/Vazirmatn-FD-Thin.ttf
+        - asset: "fonts/Vazirmatn-FD-Black.ttf"
+        - asset: "fonts/Vazirmatn-FD-Bold.ttf"
+        - asset: "fonts/Vazirmatn-FD-ExtraBold.ttf"
+        - asset: "fonts/Vazirmatn-FD-ExtraLight.ttf"
+        - asset: "fonts/Vazirmatn-FD-Light.ttf"
+        - asset: "fonts/Vazirmatn-FD-Medium.ttf"
+        - asset: "fonts/Vazirmatn-FD-Regular.ttf"
+        - asset: "fonts/Vazirmatn-FD-SemiBold.ttf"
+        - asset: "fonts/Vazirmatn-FD-Thin.ttf"
 
   #   - family: Trajan Pro
   #     fonts:
