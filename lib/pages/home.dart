@@ -6,7 +6,19 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text(" فونت وزیر اعمال شد؟"),),
+      appBar: AppBar(
+        title: Text(
+          "خرید غذا",
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 18,
+          ),
+          
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+      ),
     );
   }
 }
