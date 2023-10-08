@@ -44,7 +44,28 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(children: [TextField()]),
+      body: Column(
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              boxShadow:[
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.1),
+                  blurRadius: 20,
+                  spreadRadius: 0.0
+                )
+              ]
+              ),
+            margin: EdgeInsets.only(top: 40, right: 20, left: 20),
+            child: TextField(
+              decoration: InputDecoration(
+                filled: true,
+                fillColor: Colors.white
+                ),
+            ),
+          )
+          ]
+        ),
     );
   }
 }
