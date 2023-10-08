@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(children: [TextField()]),
     );
   }
 }
