@@ -1,6 +1,6 @@
 {
-    "name": "flutter_restaurant_app",
-    "short_name": "flutter_restaurant_app",
+    "name": "groceryapp",
+    "short_name": "groceryapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
