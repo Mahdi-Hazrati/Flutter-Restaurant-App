@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'home_page.dart';
 
@@ -13,14 +15,13 @@ class IntroScreen extends StatelessWidget {
           children: [
             // big logo
             Padding(
-              padding: const EdgeInsets.only(
-                left: 100.0,
-                right: 100.0,
-                top: 120,
-                bottom: 20,
-              ),
-              child: Image.asset('lib/images/avocado.png'),
-            ),
+                padding: const EdgeInsets.only(
+                  left: 100.0,
+                  right: 100.0,
+                  top: 50.0,
+                ),
+                child: Image.network(
+                    "http://localhost:8459/lib/images/avocado.png")),
 
             // we deliver groceries at your doorstep
             Padding(
