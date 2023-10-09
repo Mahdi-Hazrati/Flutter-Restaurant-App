@@ -21,7 +21,7 @@ class IntroScreen extends StatelessWidget {
                   top: 50.0,
                 ),
                 child: Image.network(
-                    "http://localhost:8459/assets/images/intro_logo.png")),
+                    "http://localhost:8459/assets/images/intro_logo_color.png")),
 
             // we deliver groceries at your doorstep
             Padding(
@@ -57,7 +57,7 @@ class IntroScreen extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: const EdgeInsets.all(24),
+                padding: const EdgeInsets.all(25),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
                   color: const Color.fromARGB(255, 112, 91, 222),
