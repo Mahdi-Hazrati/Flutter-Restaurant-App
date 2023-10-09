@@ -19,14 +19,14 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Padding(
-          padding: const EdgeInsets.only(left: 24.0),
+          padding: const EdgeInsets.only(left: 24.0, top: 50.0),
           child: Icon(
             Icons.location_on,
             color: Colors.grey[700],
           ),
         ),
         title: Text(
-          'Sydney, Australia',
+          'تهران',
           style: TextStyle(
             fontSize: 16,
             color: Colors.grey[700],
@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.only(right: 24.0),
             child: Container(
               padding: EdgeInsets.all(16),
+              margin: EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
@@ -70,7 +71,7 @@ class _HomePageState extends State<HomePage> {
           // good morning bro
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
-            child: Text('Good morning,'),
+            child: Text('سلام صبح بخیر,'),
           ),
 
           const SizedBox(height: 4),
@@ -79,7 +80,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
-              "Let's order fresh items for you",
+              "یه چند تا پیشنهاد باحال برات دارم",
             ),
           ),
 
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
-              "Fresh Items",
+              "غذا های جدید",
             ),
           ),
 
