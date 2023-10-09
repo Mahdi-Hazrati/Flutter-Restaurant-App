@@ -10,7 +10,7 @@ class CartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         elevation: 0,
         iconTheme: IconThemeData(
           color: Colors.grey[800],
@@ -44,9 +44,8 @@ class CartPage extends StatelessWidget {
                               color: Colors.grey[200],
                               borderRadius: BorderRadius.circular(8)),
                           child: ListTile(
-                            leading: Image.asset(
+                            leading: Image.network(
                               value.cartItems[index][2],
-                              height: 36,
                             ),
                             title: Text(
                               value.cartItems[index][0],
