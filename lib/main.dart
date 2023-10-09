@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant_app/pages/home.dart';
+import 'package:flutter_restaurant_app/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'vazir'),
-      home: const HomePage()
+      home: const home_page()
     );
 
   }
