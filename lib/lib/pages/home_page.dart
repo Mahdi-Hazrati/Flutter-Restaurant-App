@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
 import '../components/grocery_item_tile.dart';
 import '../model/cart_model.dart';
@@ -106,12 +107,12 @@ class _HomePageState extends State<HomePage> {
             child: Consumer<CartModel>(
               builder: (context, value, child) {
                 return GridView.builder(
-                  padding: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(0),
                   physics: const NeverScrollableScrollPhysics(),
                   itemCount: value.shopItems.length,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    childAspectRatio: 1 / 1.2,
+                    childAspectRatio: 4 / 1.2,
                   ),
                   itemBuilder: (context, index) {
                     return GroceryItemTile(
