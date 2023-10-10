@@ -21,7 +21,7 @@ class IntroScreen extends StatelessWidget {
                   top: 50.0,
                 ),
                 child: Image.network(
-                    "http://localhost:8459/assets/images/intro_logo_color.png")),
+                    "http://localhost:11680/assets/images/intro_logo_color.png")),
 
             // we deliver groceries at your doorstep
             Padding(
